@@ -1,0 +1,560 @@
+command prompt
+1.switchig from one drive to another
+	D:/>         (now type required drive name ex.c drive "c:")
+	d:/>c:      (enter)
+it shows like this
+	c:/users/windows>
+
+2."dir"command shows all directories
+
+C:\Users\Shreyash>dir
+ Volume in drive C has no label.
+ Volume Serial Number is FE74-FDF0
+
+ Directory of C:\Users\Shreyash
+
+17-12-2020  14:31    <DIR>          .
+17-12-2020  14:31    <DIR>          ..
+02-12-2019  20:39    <DIR>          Contacts
+09-01-2022  11:19    <DIR>          Desktop
+14-12-2021  20:44    <DIR>          Documents
+09-01-2022  10:32    <DIR>          Downloads
+14-04-2020  13:57    <DIR>          Favorites
+02-12-2019  20:39    <DIR>          Links
+02-12-2019  20:39    <DIR>          Music
+17-06-2020  12:46    <DIR>          Pictures
+02-12-2019  20:39    <DIR>          Saved Games
+02-12-2019  20:39    <DIR>          Searches
+02-12-2019  20:39    <DIR>          Videos
+               0 File(s)              0 bytes
+              13 Dir(s)  70,267,768,832 bytes free
+3.what are the commands of 
+dir/a display all directories
+dir/b  showing only folders name alp vise
+dir/c  display all directories + name alp wise
+dir/d display all directories + name alp wise + square braket
+dir/e invalid switch means not pre defined
+dir/f invalid switch means not pre defined
+dir/abcd parameter format not correct
+dir/al file not found
+dir/cp parameter format not correct
+dir/p display all directorie and files page wise
+dir/w display all directorie and files width wise
+dir/l display all directorie and files in lower case letters
+respectively
+
+D:\>dir/a
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+12-11-2018  09:42    <DIR>          $RECYCLE.BIN
+09-01-2022  11:12    <DIR>          b
+07-12-2015  21:57    <DIR>          Kannada ebooks
+11-09-2016  14:23    <DIR>          KUNDARGI DRAMA
+19-11-2018  19:08    <DIR>          Lucky_pendrive
+06-11-2015  01:18    <DIR>          Memories
+13-09-2016  19:44    <DIR>          Mobile
+12-11-2018  12:02    <DIR>          movies
+06-11-2015  01:19    <DIR>          Music
+14-01-2020  22:23    <DIR>          New folder
+08-07-2019  22:32    <DIR>          New folder (2)
+14-01-2020  22:09    <DIR>          new movies
+21-11-2015  19:20    <DIR>          Panchatantra
+07-08-2017  20:50    <DIR>          Photos
+06-11-2015  00:16    <DIR>          Ramayan
+14-04-2020  15:36    <DIR>          surekha.h
+06-11-2015  06:08    <DIR>          System Volume Information
+18-06-2016  06:39    <DIR>          video
+12-12-2015  13:55    <DIR>          Video-Songs
+12-06-2016  22:35    <DIR>          Viraat (2016) Kannada - DVDRip - XviD - AC3
+- ESub - [DDR]
+06-11-2015  00:27    <DIR>          Yoga
+               0 File(s)              0 bytes
+              21 Dir(s)  39,935,016,960 bytes free
+
+D:\>dir/b
+b
+Kannada ebooks
+KUNDARGI DRAMA
+Lucky_pendrive
+Memories
+Mobile
+movies
+Music
+New folder
+New folder (2)
+new movies
+Panchatantra
+Photos
+Ramayan
+surekha.h
+video
+Video-Songs
+Viraat (2016) Kannada - DVDRip - XviD - AC3 - ESub - [DDR]
+Yoga
+
+D:\>dir/c
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+09-01-2022  11:12    <DIR>          b
+07-12-2015  21:57    <DIR>          Kannada ebooks
+11-09-2016  14:23    <DIR>          KUNDARGI DRAMA
+19-11-2018  19:08    <DIR>          Lucky_pendrive
+06-11-2015  01:18    <DIR>          Memories
+13-09-2016  19:44    <DIR>          Mobile
+12-11-2018  12:02    <DIR>          movies
+06-11-2015  01:19    <DIR>          Music
+14-01-2020  22:23    <DIR>          New folder
+08-07-2019  22:32    <DIR>          New folder (2)
+14-01-2020  22:09    <DIR>          new movies
+21-11-2015  19:20    <DIR>          Panchatantra
+07-08-2017  20:50    <DIR>          Photos
+06-11-2015  00:16    <DIR>          Ramayan
+14-04-2020  15:36    <DIR>          surekha.h
+18-06-2016  06:39    <DIR>          video
+12-12-2015  13:55    <DIR>          Video-Songs
+12-06-2016  22:35    <DIR>          Viraat (2016) Kannada - DVDRip - XviD - AC3
+- ESub - [DDR]
+06-11-2015  00:27    <DIR>          Yoga
+               0 File(s)              0 bytes
+              19 Dir(s)  39,935,016,960 bytes free
+
+D:\>dir/c
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+09-01-2022  11:12    <DIR>          b
+07-12-2015  21:57    <DIR>          Kannada ebooks
+11-09-2016  14:23    <DIR>          KUNDARGI DRAMA
+19-11-2018  19:08    <DIR>          Lucky_pendrive
+06-11-2015  01:18    <DIR>          Memories
+13-09-2016  19:44    <DIR>          Mobile
+12-11-2018  12:02    <DIR>          movies
+06-11-2015  01:19    <DIR>          Music
+14-01-2020  22:23    <DIR>          New folder
+08-07-2019  22:32    <DIR>          New folder (2)
+14-01-2020  22:09    <DIR>          new movies
+21-11-2015  19:20    <DIR>          Panchatantra
+07-08-2017  20:50    <DIR>          Photos
+06-11-2015  00:16    <DIR>          Ramayan
+14-04-2020  15:36    <DIR>          surekha.h
+18-06-2016  06:39    <DIR>          video
+12-12-2015  13:55    <DIR>          Video-Songs
+12-06-2016  22:35    <DIR>          Viraat (2016) Kannada - DVDRip - XviD - AC3
+- ESub - [DDR]
+06-11-2015  00:27    <DIR>          Yoga
+               0 File(s)              0 bytes
+              19 Dir(s)  39,935,016,960 bytes free
+
+D:\>dir/d
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+[b]
+[Kannada ebooks]
+[KUNDARGI DRAMA]
+[Lucky_pendrive]
+[Memories]
+[Mobile]
+[movies]
+[Music]
+[New folder]
+[New folder (2)]
+[new movies]
+[Panchatantra]
+[Photos]
+[Ramayan]
+[surekha.h]
+[video]
+[Video-Songs]
+[Viraat (2016) Kannada - DVDRip - XviD - AC3 - ESub - [DDR]]
+[Yoga]
+
+               0 File(s)              0 bytes
+              19 Dir(s)  39,935,016,960 bytes free
+
+D:\>dir/e
+Invalid switch - "e".
+
+D:\>dir
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+09-01-2022  11:12    <DIR>          b
+07-12-2015  21:57    <DIR>          Kannada ebooks
+11-09-2016  14:23    <DIR>          KUNDARGI DRAMA
+19-11-2018  19:08    <DIR>          Lucky_pendrive
+06-11-2015  01:18    <DIR>          Memories
+13-09-2016  19:44    <DIR>          Mobile
+12-11-2018  12:02    <DIR>          movies
+06-11-2015  01:19    <DIR>          Music
+14-01-2020  22:23    <DIR>          New folder
+08-07-2019  22:32    <DIR>          New folder (2)
+14-01-2020  22:09    <DIR>          new movies
+21-11-2015  19:20    <DIR>          Panchatantra
+07-08-2017  20:50    <DIR>          Photos
+06-11-2015  00:16    <DIR>          Ramayan
+14-04-2020  15:36    <DIR>          surekha.h
+18-06-2016  06:39    <DIR>          video
+12-12-2015  13:55    <DIR>          Video-Songs
+12-06-2016  22:35    <DIR>          Viraat (2016) Kannada - DVDRip - XviD - AC3
+- ESub - [DDR]
+06-11-2015  00:27    <DIR>          Yoga
+               0 File(s)              0 bytes
+              19 Dir(s)  39,935,016,960 bytes free
+
+D:\>dir/f
+Invalid switch - "f".
+
+D:\>dir/acd
+Parameter format not correct - "cd".
+
+D:\>dir/al
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+File Not Found
+
+D:\>dir/cp
+Parameter format not correct - "cp".
+
+D:\>dir/p
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+09-01-2022  11:12    <DIR>          b
+07-12-2015  21:57    <DIR>          Kannada ebooks
+11-09-2016  14:23    <DIR>          KUNDARGI DRAMA
+19-11-2018  19:08    <DIR>          Lucky_pendrive
+06-11-2015  01:18    <DIR>          Memories
+13-09-2016  19:44    <DIR>          Mobile
+12-11-2018  12:02    <DIR>          movies
+06-11-2015  01:19    <DIR>          Music
+14-01-2020  22:23    <DIR>          New folder
+08-07-2019  22:32    <DIR>          New folder (2)
+14-01-2020  22:09    <DIR>          new movies
+21-11-2015  19:20    <DIR>          Panchatantra
+07-08-2017  20:50    <DIR>          Photos
+06-11-2015  00:16    <DIR>          Ramayan
+14-04-2020  15:36    <DIR>          surekha.h
+18-06-2016  06:39    <DIR>          video
+12-12-2015  13:55    <DIR>          Video-Songs
+12-06-2016  22:35    <DIR>          Viraat (2016) Kannada - DVDRip - XviD - AC3
+- ESub - [DDR]
+06-11-2015  00:27    <DIR>          Yoga
+               0 File(s)              0 bytes
+              19 Dir(s)  39,935,016,960 bytes free
+
+D:\>dir/w
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+[b]
+[Kannada ebooks]
+[KUNDARGI DRAMA]
+[Lucky_pendrive]
+[Memories]
+[Mobile]
+[movies]
+[Music]
+[New folder]
+[New folder (2)]
+[new movies]
+[Panchatantra]
+[Photos]
+[Ramayan]
+[surekha.h]
+[video]
+[Video-Songs]
+[Viraat (2016) Kannada - DVDRip - XviD - AC3 - ESub - [DDR]]
+[Yoga]
+               0 File(s)              0 bytes
+              19 Dir(s)  39,935,016,960 bytes free
+
+D:\>dir/l
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\
+
+09-01-2022  11:12    <DIR>          b
+07-12-2015  21:57    <DIR>          kannada ebooks
+11-09-2016  14:23    <DIR>          kundargi drama
+19-11-2018  19:08    <DIR>          lucky_pendrive
+06-11-2015  01:18    <DIR>          memories
+13-09-2016  19:44    <DIR>          mobile
+12-11-2018  12:02    <DIR>          movies
+06-11-2015  01:19    <DIR>          music
+14-01-2020  22:23    <DIR>          new folder
+08-07-2019  22:32    <DIR>          new folder (2)
+14-01-2020  22:09    <DIR>          new movies
+21-11-2015  19:20    <DIR>          panchatantra
+07-08-2017  20:50    <DIR>          photos
+06-11-2015  00:16    <DIR>          ramayan
+14-04-2020  15:36    <DIR>          surekha.h
+18-06-2016  06:39    <DIR>          video
+12-12-2015  13:55    <DIR>          video-songs
+12-06-2016  22:35    <DIR>          viraat (2016) kannada - dvdrip - xvid - ac3
+- esub - [ddr]
+06-11-2015  00:27    <DIR>          yoga
+               0 File(s)              0 bytes
+              19 Dir(s)  39,935,016,960 bytes free
+
+D:\>
+4. create new file "mkdir"
+ D:/>mkdir filename
+
+D:\>mkdir "bk"
+
+D:\>mkdir nn:
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\>mkdir nk
+a subdirectory or file nk already exists.
+5. copy command 
+D:/> copy file1 file2
+here file1 source ,file2 destination
+
+D:\>copy memories
+memories\133829_187988111226610_4019844_o.jpg
+memories\177912_376765472382998_1994490704_o.jpg
+memories\202473_392079120858116_1988210909_o.jpg
+memories\Image0494.jpg
+memories\Image0495.jpg
+memories\Image0525.jpg
+        6 file(s) copied.
+
+D:\>copy nk
+nk\*
+The system cannot find the file specified.
+        0 file(s) copied.
+
+D:\>copy memories nk
+memories\133829_187988111226610_4019844_o.jpg
+memories\177912_376765472382998_1994490704_o.jpg
+memories\202473_392079120858116_1988210909_o.jpg
+memories\Image0494.jpg
+memories\Image0495.jpg
+memories\Image0525.jpg
+        6 file(s) copied.
+
+5. rename folder "c:/>ren file1 file2"
+
+D:\>ren nk sk
+
+6. type command for displaying details/ contest of file
+syntax is d:/>type filename
+
+D:\>type Image0494.jpg
+
+7. rd command for delete all files from the directories means it deletes only empty directories
+syntax d:/> rd dirname
+ 
+D:\>rd nnnnnnn
+
+
+8. cls command for clear the screen
+d:/>cls
+
+9.date command
+d:/>date
+
+D:\>date
+The current date is: 09-01-2022
+Enter the new date: (dd-mm-yy)
+
+10.time command 
+d:/>time
+
+D:\>time
+The current time is: 13:15:22.11
+Enter the new time:
+
+11.format drive
+d:/>format drive:
+d:/> format c:
+
+12.disk copy
+d:/> diskcopy drive: drive:
+d:/> diskcopy c: d:
+
+13.chkdsk commad 
+checks the disk directories, files FAT (file allocation table)
+d:/>chkdsk drive: pathname
+
+
+D:\>chkdsk c:
+Access Denied as you do not have sufficient privileges.
+You have to invoke this utility running in elevated mode.
+
+D:\>chkdsk d:
+The type of the file system is NTFS.
+The volume is in use by another process. Chkdsk
+might report errors when no corruption is present.
+Volume label is Enter10.
+
+WARNING!  F parameter not specified.
+Running CHKDSK in read-only mode.
+
+CHKDSK is verifying files (stage 1 of 3)...
+  21248 file records processed.
+File verification completed.
+  20 large file records processed.
+  0 bad file records processed.
+
+CHKDSK is verifying indexes (stage 2 of 3)...
+  21904 index entries processed.
+Index verification completed.
+  0 unindexed files scanned.
+  0 unindexed files recovered.
+
+CHKDSK is verifying security descriptors (stage 3 of 3)...
+Security descriptor verification completed.
+  328 data files processed.
+
+Windows has scanned the file system and found no problems.
+No further action is required.
+
+ 281599999 KB total disk space.
+ 242497772 KB in 20810 files.
+      7912 KB in 330 indexes.
+         0 KB in bad sectors.
+     95799 KB in use by the system.
+     65536 KB occupied by the log file.
+  38998516 KB available on disk.
+
+      4096 bytes in each allocation unit.
+  70399999 total allocation units on disk.
+   9749629 allocation units available on disk.
+
+D:\>chkdsk e:
+The type of the file system is NTFS.
+Volume label is Study.
+
+WARNING!  F parameter not specified.
+Running CHKDSK in read-only mode.
+
+CHKDSK is verifying files (stage 1 of 3)...
+  6400 file records processed.
+File verification completed.
+  0 large file records processed.
+  0 bad file records processed.
+
+CHKDSK is verifying indexes (stage 2 of 3)...
+  6542 index entries processed.
+Index verification completed.
+  0 unindexed files scanned.
+  0 unindexed files recovered.
+
+CHKDSK is verifying security descriptors (stage 3 of 3)...
+Security descriptor verification completed.
+  72 data files processed.
+CHKDSK is verifying Usn Journal...
+  6119376 USN bytes processed.
+Usn Journal verification completed.
+
+Windows has scanned the file system and found no problems.
+No further action is required.
+
+ 103422975 KB total disk space.
+  62644576 KB in 6148 files.
+      3208 KB in 73 indexes.
+         0 KB in bad sectors.
+     81659 KB in use by the system.
+     65536 KB occupied by the log file.
+  40693532 KB available on disk.
+
+      4096 bytes in each allocation unit.
+  25855743 total allocation units on disk.
+  10173383 allocation units available on disk.
+
+D:\>chkdsk a:
+Cannot open volume for direct access.
+
+D:\>
+
+14.attrib command
+used to view or change the attributes associated with such as read only ,hidden,archive and system file
++H to make hidden file/s
++r to make read only file/s
+-h to remove hidden file setting
+-r  to remove read only file/s  setting
+
+
+D:\>attrib +h sk
+
+D:\>attrib -h sk
+
+D:\>attrib +r sk
+
+D:\>attrib -r sk
+
+D:\>attrib +r sk
+
+D:\>attrib +h "nagaraj Resume.docx"
+
+D:\>attrib -h "nagaraj Resume.docx"
+
+15. for detials of  any file/s or  folder/s
+
+D:\>dir photos
+ Volume in drive D is Enter10
+ Volume Serial Number is 8A49-5E5C
+
+ Directory of D:\photos
+
+07-08-2017  20:50    <DIR>          .
+07-08-2017  20:50    <DIR>          ..
+20-11-2015  14:57           212,039 IMG-20151120-WA0000.jpg
+20-11-2015  14:57           241,314 IMG-20151120-WA0001.jpg
+20-11-2015  14:57            48,579 IMG-20151120-WA0002.jpg
+30-08-2016  20:25            31,480 IMG-20151120-WA0003.jpg
+20-11-2015  14:58            30,691 IMG-20151120-WA0006.jpg
+20-11-2015  14:59           210,273 IMG-20151120-WA0007.jpg
+20-11-2015  15:00           170,037 IMG-20151120-WA0008.jpg
+20-11-2015  15:00           239,532 IMG-20151120-WA0009.jpg
+20-11-2015  15:02           213,425 IMG-20151120-WA0011.jpg
+20-11-2015  15:02           159,896 IMG-20151120-WA0012.jpg
+20-11-2015  15:03           194,868 IMG-20151120-WA0013.jpg
+20-11-2015  15:03           204,652 IMG-20151120-WA0014.jpg
+20-11-2015  22:12           189,232 IMG-20151120-WA0015.jpg
+20-11-2015  22:12           128,690 IMG-20151120-WA0016.jpg
+20-11-2015  22:13           190,409 IMG-20151120-WA0017.jpg
+20-11-2015  22:14           160,866 IMG-20151120-WA0018.jpg
+20-11-2015  22:18           161,045 IMG-20151120-WA0019.jpg
+20-11-2015  22:21           188,175 IMG-20151120-WA0020.jpg
+20-11-2015  22:21           168,859 IMG-20151120-WA0021.jpg
+20-11-2015  22:22           206,621 IMG-20151120-WA0022.jpg
+20-11-2015  22:22           106,497 IMG-20151120-WA0023.jpg
+20-11-2015  22:24           160,730 IMG-20151120-WA0024.jpg
+20-11-2015  21:56           152,757 IMG-20151120-WA0025.jpg
+20-11-2015  21:58           232,205 IMG-20151120-WA0026.jpg
+20-11-2015  21:59           194,158 IMG-20151120-WA0027.jpg
+20-11-2015  22:01           166,612 IMG-20151120-WA0028.jpg
+20-11-2015  22:02           224,826 IMG-20151120-WA0029.jpg
+20-11-2015  22:04           209,321 IMG-20151120-WA0030.jpg
+20-11-2015  22:05           190,509 IMG-20151120-WA0031.jpg
+20-11-2015  22:07           149,111 IMG-20151120-WA0032.jpg
+20-11-2015  22:07           171,251 IMG-20151120-WA0033.jpg
+20-11-2015  22:08           201,113 IMG-20151120-WA0036.jpg
+              32 File(s)      5,509,773 bytes
+               2 Dir(s)  39,930,286,080 bytes free
+
+ 

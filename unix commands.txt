@@ -1,0 +1,36 @@
+unix commands 
+some basic commands and respective outputs 
+
+#                             Online Bash Shell.
+#                 Code, Compile, Run and Debug Bash script online.
+# Write your code in this editor and press "Run" button to execute it.
+
+
+#echo "Hello World";
+#mkdir a1
+#kdir a2
+#mkdir a3
+#ls -a
+#mkdir a1/a11
+#ls -a
+#ls -l
+#ls -t
+#ls -r
+#ls -r
+#ls --help
+#ls -e
+#cat n1
+#cp n1 n2.txt
+#mv n1 s1
+# rm s1*
+#rmdir s1
+#head -2 n1
+#tail n1
+#tail -1 n1
+#pwd
+#grep s1
+#diff n1 m2.bash
+#ls -al | grep *txt
+
+# ls -al|grep *.txt
+pwd
